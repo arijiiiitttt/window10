@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family:Bowlby ;
+    src: url(./fonts/Bowlby_One/BowlbyOne-Regular.ttf);
+  }
+  .bowl{
+    font-family:Bowlby,sans-serif;
+  }
+  
+  @font-face {
+    font-family:Oswald ;
+    src: url(./fonts/oswald/Oswald-VariableFont_wght.ttf);
+  }
+  .oswal{
+    font-family:Oswald,sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'PoppinsBlack';
+    font-weight: 900;
+    src: url(/public/Fonts/Poppins/Poppins-Black.ttf);
+  }
+  .popblack {
+    font-family: 'PoppinsBlack', sans-serif;
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: 'ArbutusSlab';
+    font-weight: 400;
+    src: url(/src/Fonts/ArbutusSlab/ArbutusSlab-Regular.ttf);
+  }
+  .arbslab {
+    font-family: 'ArbutusSlab', sans-serif;
+    font-weight: 400;
+  }
