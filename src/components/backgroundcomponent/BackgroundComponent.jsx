@@ -5,8 +5,8 @@ import TaskaBar from '../Taskbar/TaskaBar';
 const BackgroundComponent = () => {
   return (
     <div
-      className="bg-cover  h-screen w-full"
-      style={{ backgroundImage: "url('/default/shrekbg.png')" }}
+      className="bg-cover h-screen w-full"
+      style={{ backgroundImage: "url('/default/dogbg.jpg')" }}
     >
       <Landing />
       <TaskaBar/>

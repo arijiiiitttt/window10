@@ -8,9 +8,9 @@ const Mobileview = () => {
         <div className="bg-gradient-to-r from-gray-800 to-gray-700 w-[42vh] p-7 h-[19vh] shadow-md rounded-xl text-center flex flex-col justify-center items-center border border-gray-600 animate-bounce-slow">
           <div className="flex flex-row items-center justify-center">
             <FaLock className="mr-2 text-gray-200" />
-            <h2 className="arbslab text-lg font-semibold text-gray-100">Couldn't Load Post</h2>
+            <h2 className="arbslab text-md font-semibold text-gray-100">Couldn't Load Content</h2>
           </div>
-          <p className="text-sm font-normal text-gray-300 text-center">
+          <p className="text-sm  font-normal text-gray-300 text-center">
             This content is not available on mobile devices. Please switch to your tablet or desktop
           </p>
         </div>
